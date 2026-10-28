@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 700" font-family="Segoe UI, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#475569"/></marker>
+    <style>
+      .box{fill:#f8fafc;stroke:#64748b;stroke-width:1.5;rx:10}
+      .ui{fill:#dbeafe;stroke:#2563eb;stroke-width:1.5;rx:10}
+      .ext{fill:#fef3c7;stroke:#d97706;stroke-width:1.5;rx:10}
+      .key{fill:#dcfce7;stroke:#16a34a;stroke-width:1.5;rx:10}
+      .out{fill:#ede9fe;stroke:#7c3aed;stroke-width:1.5;rx:10}
+      .t{fill:#0f172a} .s{fill:#475569;font-size:12px} .h{font-weight:700;font-size:15px;fill:#0f172a}
+      .l{stroke:#475569;stroke-width:1.6;fill:none}
+    </style>
+  </defs>
+  <text x="480" y="30" text-anchor="middle" class="h" font-size="20">AI-Powered B2B Lead Qualification - Architecture</text>
+
+  <rect class="ui" x="30" y="55" width="900" height="70"/>
+  <text x="480" y="82" text-anchor="middle" class="h">Streamlit dashboard (app.py)  ·  CLI (cli.py)</text>
+  <text x="480" y="105" text-anchor="middle" class="s">Company names / CSV upload · ICP editor · Run settings · Results, evidence &amp; flags · CSV/JSON download</text>
+
+  <rect class="box" x="30" y="160" width="190" height="90"/>
+  <text x="125" y="188" text-anchor="middle" class="h">1. Input validation</text>
+  <text x="125" y="208" text-anchor="middle" class="s">names, URLs, CSV limits</text>
+  <text x="125" y="225" text-anchor="middle" class="s">blocks private/local hosts</text>
+
+  <rect class="box" x="265" y="160" width="210" height="90"/>
+  <text x="370" y="188" text-anchor="middle" class="h">2. Research</text>
+  <text x="370" y="208" text-anchor="middle" class="s">robots.txt-aware page fetch</text>
+  <text x="370" y="225" text-anchor="middle" class="s">Wikipedia API · offline demo data</text>
+
+  <rect class="ext" x="520" y="160" width="190" height="90"/>
+  <text x="615" y="188" text-anchor="middle" class="h">3. Extraction</text>
+  <text x="615" y="208" text-anchor="middle" class="s">LLM (Claude Haiku) or</text>
+  <text x="615" y="225" text-anchor="middle" class="s">free rules-based fallback</text>
+
+  <rect class="key" x="755" y="160" width="175" height="90"/>
+  <text x="842" y="188" text-anchor="middle" class="h">4. Evidence check</text>
+  <text x="842" y="208" text-anchor="middle" class="s">quote must exist in fetched</text>
+  <text x="842" y="225" text-anchor="middle" class="s">page text, else 0 points</text>
+
+  <path class="l" d="M125 125V160" marker-end="url(#a)"/>
+  <path class="l" d="M220 205H265" marker-end="url(#a)"/>
+  <path class="l" d="M475 205H520" marker-end="url(#a)"/>
+  <path class="l" d="M710 205H755" marker-end="url(#a)"/>
+
+  <rect class="box" x="265" y="320" width="210" height="80"/>
+  <text x="370" y="348" text-anchor="middle" class="h">Source store</text>
+  <text x="370" y="368" text-anchor="middle" class="s">only pages really retrieved</text>
+  <text x="370" y="384" text-anchor="middle" class="s">(url, title, fetched_at, text)</text>
+  <path class="l" d="M370 250V320" marker-end="url(#a)"/>
+  <path class="l" stroke-dasharray="5 4" d="M800 250V360H475" marker-end="url(#a)"/>
+  <text x="640" y="352" class="s">re-checks quotes against stored text</text>
+
+  <rect class="key" x="520" y="430" width="410" height="100"/>
+  <text x="725" y="458" text-anchor="middle" class="h">5. Scoring engine (plain Python, deterministic)</text>
+  <text x="725" y="480" text-anchor="middle" class="s">Industry · Size · Region · Business model · Need for services</text>
+  <text x="725" y="498" text-anchor="middle" class="s">weights from ICP sum to 100 · unknown data = flagged, 0 pts</text>
+  <text x="725" y="516" text-anchor="middle" class="s">Qualified / Needs Review / Not Qualified / Insufficient Data</text>
+  <path class="l" d="M880 250V430" marker-end="url(#a)"/>
+
+  <rect class="out" x="30" y="560" width="900" height="95"/>
+  <text x="480" y="588" text-anchor="middle" class="h">6. Output + human review (approve / reject / notes)</text>
+  <text x="480" y="610" text-anchor="middle" class="s">Score /100 · decision · plain-English explanation · evidence quotes + source URLs · flags for missing / unverified data</text>
+  <text x="480" y="630" text-anchor="middle" class="s">Export: results.csv + approved shortlist (formula-injection safe) · results.json (full evidence, ICP, disclaimer)</text>
+  <path class="l" d="M725 530V560" marker-end="url(#a)"/>
+
+  <rect class="box" x="30" y="430" width="230" height="100"/>
+  <text x="145" y="458" text-anchor="middle" class="h">Configuration</text>
+  <text x="145" y="480" text-anchor="middle" class="s">.env: API key &amp; limits</text>
+  <text x="145" y="498" text-anchor="middle" class="s">ICP JSON → criteria, weights,</text>
+  <text x="145" y="514" text-anchor="middle" class="s">thresholds (editable in UI)</text>
+  <path class="l" stroke-dasharray="5 4" d="M260 480H520" marker-end="url(#a)"/>
+
+  <rect class="box" x="290" y="440" width="190" height="70" stroke-dasharray="4 3"/>
+  <text x="385" y="468" text-anchor="middle" class="h">Safety rails</text>
+  <text x="385" y="488" text-anchor="middle" class="s">No outreach · public pages</text>
+  <text x="385" y="503" text-anchor="middle" class="s">Injection-safe prompts</text>
+</svg>

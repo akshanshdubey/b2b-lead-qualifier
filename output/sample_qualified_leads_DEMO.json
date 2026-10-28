@@ -1,0 +1,1245 @@
+{
+  "generated_at": "2026-10-28T17:58:19Z",
+  "tool_version": "1.0.0",
+  "disclaimer": "Generated from publicly available pages only. No prospects were contacted. Facts without a verified evidence quote earn no points. The score supports human review; it is NOT proof that a company is ready to buy.",
+  "icp": {
+    "name": "Cloud / Data / AI consulting ICP",
+    "target_industries": [
+      "fintech",
+      "banking",
+      "healthcare",
+      "logistics",
+      "manufacturing",
+      "retail",
+      "education"
+    ],
+    "excluded_industries": [
+      "restaurant",
+      "gambling",
+      "data analytics",
+      "artificial intelligence"
+    ],
+    "min_employees": 100,
+    "max_employees": 5000,
+    "target_regions": [
+      "United States",
+      "Canada",
+      "United Kingdom",
+      "Germany"
+    ],
+    "target_business_model": "B2B",
+    "buying_signal_keywords": [
+      "cloud",
+      "digital transformation",
+      "modernization",
+      "migration",
+      "automation",
+      "analytics",
+      "machine learning",
+      "AI",
+      "legacy",
+      "hiring",
+      "expansion"
+    ],
+    "weights": {
+      "industry": 25,
+      "company_size": 15,
+      "region": 15,
+      "business_model": 10,
+      "buying_signals": 35
+    },
+    "qualified_threshold": 70,
+    "review_threshold": 45,
+    "min_coverage": 0.5,
+    "unknown_credit": 0.0
+  },
+  "results": [
+    {
+      "company": "Lumora Analytics",
+      "website": "demo://lumora-analytics.example",
+      "website_origin": "demo",
+      "status": "ok",
+      "error": null,
+      "score": 75.0,
+      "decision": "Not Qualified",
+      "data_coverage": 1.0,
+      "summary": "Not Qualified: 75/100 with 100% of the score backed by verified evidence. Disqualified: Industry 'data analytics' is on the ICP exclusion list ('data analytics').",
+      "criteria": [
+        {
+          "name": "industry",
+          "label": "Industry fit",
+          "weight": 25,
+          "points": 0,
+          "status": "excluded",
+          "explanation": "Industry 'data analytics' is excluded by the ICP (0/25 pts)",
+          "known": true,
+          "evidence": "Lumora Analytics is a cloud-based data analytics platform for enterprise teams.",
+          "source_url": "demo://lumora-analytics.example/"
+        },
+        {
+          "name": "company_size",
+          "label": "Company size",
+          "weight": 15,
+          "points": 15,
+          "status": "match",
+          "explanation": "320 employees is within 100-5,000 (15/15 pts)",
+          "known": true,
+          "evidence": "We have 320 employees across three offices.",
+          "source_url": "demo://lumora-analytics.example/about"
+        },
+        {
+          "name": "region",
+          "label": "Region",
+          "weight": 15,
+          "points": 15,
+          "status": "match",
+          "explanation": "Region 'Austin, Texas, United States' matches target 'United States' (15/15 pts)",
+          "known": true,
+          "evidence": "Lumora Analytics is headquartered in Austin, Texas, United States.",
+          "source_url": "demo://lumora-analytics.example/about"
+        },
+        {
+          "name": "business_model",
+          "label": "Business model",
+          "weight": 10,
+          "points": 10,
+          "status": "match",
+          "explanation": "Business model B2B matches target B2B (10/10 pts)",
+          "known": true,
+          "evidence": "Lumora Analytics is a cloud-based data analytics platform for enterprise teams.",
+          "source_url": "demo://lumora-analytics.example/"
+        },
+        {
+          "name": "buying_signals",
+          "label": "Need for services (tech initiatives / growth signals)",
+          "weight": 35,
+          "points": 35.0,
+          "status": "match",
+          "explanation": "5 verified signal(s): AI, analytics, cloud, hiring, machine learning (35/35 pts)",
+          "known": true,
+          "evidence": "Lumora Analytics is a cloud-based data analytics platform for enterprise teams.",
+          "source_url": "demo://lumora-analytics.example/"
+        }
+      ],
+      "facts": {
+        "industry": {
+          "value": "data analytics",
+          "evidence": "Lumora Analytics is a cloud-based data analytics platform for enterprise teams.",
+          "source_url": "demo://lumora-analytics.example/",
+          "verified": true,
+          "issue": null
+        },
+        "employee_count": {
+          "value": 320,
+          "evidence": "We have 320 employees across three offices.",
+          "source_url": "demo://lumora-analytics.example/about",
+          "verified": true,
+          "issue": null
+        },
+        "region": {
+          "value": "Austin, Texas, United States",
+          "evidence": "Lumora Analytics is headquartered in Austin, Texas, United States.",
+          "source_url": "demo://lumora-analytics.example/about",
+          "verified": true,
+          "issue": null
+        },
+        "business_model": {
+          "value": "B2B",
+          "evidence": "Lumora Analytics is a cloud-based data analytics platform for enterprise teams.",
+          "source_url": "demo://lumora-analytics.example/",
+          "verified": true,
+          "issue": null
+        },
+        "buying_signals": [
+          {
+            "value": "cloud",
+            "evidence": "Lumora Analytics is a cloud-based data analytics platform for enterprise teams.",
+            "source_url": "demo://lumora-analytics.example/",
+            "verified": true,
+            "issue": null
+          },
+          {
+            "value": "analytics",
+            "evidence": "Lumora Analytics is a cloud-based data analytics platform for enterprise teams.",
+            "source_url": "demo://lumora-analytics.example/",
+            "verified": true,
+            "issue": null
+          },
+          {
+            "value": "machine learning",
+            "evidence": "Our SaaS platform helps businesses turn raw data into decisions with machine learning and a powerful API.",
+            "source_url": "demo://lumora-analytics.example/",
+            "verified": true,
+            "issue": null
+          },
+          {
+            "value": "AI",
+            "evidence": "In 2025 we announced Series B funding to expand our AI capabilities and launch new integrations.",
+            "source_url": "demo://lumora-analytics.example/about",
+            "verified": true,
+            "issue": null
+          },
+          {
+            "value": "hiring",
+            "evidence": "We are hiring across engineering, sales and customer success.",
+            "source_url": "demo://lumora-analytics.example/careers",
+            "verified": true,
+            "issue": null
+          }
+        ],
+        "extractor": "rules",
+        "pages_available": true
+      },
+      "flags": [
+        "DEMO DATA: fictional company text bundled with the project, not real research."
+      ],
+      "sources": [
+        {
+          "url": "demo://lumora-analytics.example/",
+          "kind": "demo",
+          "title": "Lumora Analytics - Data analytics for enterprise teams",
+          "fetched_at": "2026-10-28T17:58:19Z",
+          "text_chars": 316
+        },
+        {
+          "url": "demo://lumora-analytics.example/about",
+          "kind": "demo",
+          "title": "About Lumora Analytics",
+          "fetched_at": "2026-10-28T17:58:19Z",
+          "text_chars": 207
+        },
+        {
+          "url": "demo://lumora-analytics.example/careers",
+          "kind": "demo",
+          "title": "Careers at Lumora",
+          "fetched_at": "2026-10-28T17:58:19Z",
+          "text_chars": 164
+        }
+      ],
+      "research_log": [
+        "LOADED demo fixture demo://lumora-analytics.example/",
+        "LOADED demo fixture demo://lumora-analytics.example/about",
+        "LOADED demo fixture demo://lumora-analytics.example/careers"
+      ],
+      "extractor": "rules",
+      "researched_at": "2026-10-28T17:58:19Z",
+      "evidence_quality": "High",
+      "review": {
+        "status": "Pending review",
+        "notes": ""
+      }
+    },
+    {
+      "company": "Cobalt Secure",
+      "website": "demo://cobalt-secure.example",
+      "website_origin": "demo",
+      "status": "ok",
+      "error": null,
+      "score": 53.0,
+      "decision": "Needs Review",
+      "data_coverage": 1.0,
+      "summary": "Needs Review: 53/100 with 100% of the score backed by verified evidence. Strong fit: Company size, Business model. Weak fit: Industry fit, Region.",
+      "criteria": [
+        {
+          "name": "industry",
+          "label": "Industry fit",
+          "weight": 25,
+          "points": 0,
+          "status": "mismatch",
+          "explanation": "Industry 'cybersecurity' is not a target industry (0/25 pts)",
+          "known": true,
+          "evidence": "Cobalt Secure provides cybersecurity software for enterprise security teams.",
+          "source_url": "demo://cobalt-secure.example/"
+        },
+        {
+          "name": "company_size",
+          "label": "Company size",
+          "weight": 15,
+          "points": 15,
+          "status": "match",
+          "explanation": "220 employees is within 100-5,000 (15/15 pts)",
+          "known": true,
+          "evidence": "Our team of 220 employees protects business customers around the world.",
+          "source_url": "demo://cobalt-secure.example/about"
+        },
+        {
+          "name": "region",
+          "label": "Region",
+          "weight": 15,
+          "points": 0,
+          "status": "mismatch",
+          "explanation": "Region 'Sydney, Australia' is not in the target regions (0/15 pts)",
+          "known": true,
+          "evidence": "Cobalt Secure is headquartered in Sydney, Australia.",
+          "source_url": "demo://cobalt-secure.example/about"
+        },
+        {
+          "name": "business_model",
+          "label": "Business model",
+          "weight": 10,
+          "points": 10,
+          "status": "match",
+          "explanation": "Business model B2B matches target B2B (10/10 pts)",
+          "known": true,
+          "evidence": "Cobalt Secure provides cybersecurity software for enterprise security teams.",
+          "source_url": "demo://cobalt-secure.example/"
+        },
+        {
+          "name": "buying_signals",
+          "label": "Need for services (tech initiatives / growth signals)",
+          "weight": 35,
+          "points": 28.0,
+          "status": "partial",
+          "explanation": "2 verified signal(s): expansion, hiring (28/35 pts)",
+          "known": true,
+          "evidence": "We are hiring security engineers for our expansion into Europe.",
+          "source_url": "demo://cobalt-secure.example/about"
+        }
+      ],
+      "facts": {
+        "industry": {
+          "value": "cybersecurity",
+          "evidence": "Cobalt Secure provides cybersecurity software for enterprise security teams.",
+          "source_url": "demo://cobalt-secure.example/",
+          "verified": true,
+          "issue": null
+        },
+        "employee_count": {
+          "value": 220,
+          "evidence": "Our team of 220 employees protects business customers around the world.",
+          "source_url": "demo://cobalt-secure.example/about",
+          "verified": true,
+          "issue": null
+        },
+        "region": {
+          "value": "Sydney, Australia",
+          "evidence": "Cobalt Secure is headquartered in Sydney, Australia.",
+          "source_url": "demo://cobalt-secure.example/about",
+          "verified": true,
+          "issue": null
+        },
+        "business_model": {
+          "value": "B2B",
+          "evidence": "Cobalt Secure provides cybersecurity software for enterprise security teams.",
+          "source_url": "demo://cobalt-secure.example/",
+          "verified": true,
+          "issue": null
+        },
+        "buying_signals": [
+          {
+            "value": "hiring",
+            "evidence": "We are hiring security engineers for our expansion into Europe.",
+            "source_url": "demo://cobalt-secure.example/about",
+            "verified": true,
+            "issue": null
+          },
+          {
+            "value": "expansion",
+            "evidence": "We are hiring security engineers for our expansion into Europe.",
+            "source_url": "demo://cobalt-secure.example/about",
+            "verified": true,
+            "issue": null
+          }
+        ],
+        "extractor": "rules",
+        "pages_available": true
+      },
+      "flags": [
+        "DEMO DATA: fictional company text bundled with the project, not real research."
+      ],
+      "sources": [
+        {
+          "url": "demo://cobalt-secure.example/",
+          "kind": "demo",
+          "title": "Cobalt Secure - Zero trust cybersecurity",
+          "fetched_at": "2026-10-28T17:58:19Z",
+          "text_chars": 265
+        },
+        {
+          "url": "demo://cobalt-secure.example/about",
+          "kind": "demo",
+          "title": "About Cobalt Secure",
+          "fetched_at": "2026-10-28T17:58:19Z",
+          "text_chars": 278
+        }
+      ],
+      "research_log": [
+        "LOADED demo fixture demo://cobalt-secure.example/",
+        "LOADED demo fixture demo://cobalt-secure.example/about"
+      ],
+      "extractor": "rules",
+      "researched_at": "2026-10-28T17:58:19Z",
+      "evidence_quality": "High",
+      "review": {
+        "status": "Pending review",
+        "notes": ""
+      }
+    },
+    {
+      "company": "Brightbyte Payments",
+      "website": "demo://brightbyte-payments.example",
+      "website_origin": "demo",
+      "status": "ok",
+      "error": null,
+      "score": 92.5,
+      "decision": "Qualified",
+      "data_coverage": 1.0,
+      "summary": "Qualified: 92.5/100 with 100% of the score backed by verified evidence. Strong fit: Industry fit, Region, Business model, Need for services (tech initiatives / growth signals).",
+      "criteria": [
+        {
+          "name": "industry",
+          "label": "Industry fit",
+          "weight": 25,
+          "points": 25,
+          "status": "match",
+          "explanation": "Industry 'fintech' matches target 'fintech' (25/25 pts)",
+          "known": true,
+          "evidence": "Brightbyte Payments is a fintech company building payment processing software for businesses.",
+          "source_url": "demo://brightbyte-payments.example/"
+        },
+        {
+          "name": "company_size",
+          "label": "Company size",
+          "weight": 15,
+          "points": 7.5,
+          "status": "partial",
+          "explanation": "85 employees is close to the 100-5,000 range (within 50%/2x) (7.5/15 pts)",
+          "known": true,
+          "evidence": "Brightbyte has 85 employees and serves companies in 12 countries.",
+          "source_url": "demo://brightbyte-payments.example/about"
+        },
+        {
+          "name": "region",
+          "label": "Region",
+          "weight": 15,
+          "points": 15,
+          "status": "match",
+          "explanation": "Region 'London, United Kingdom' matches target 'United Kingdom' (15/15 pts)",
+          "known": true,
+          "evidence": "Brightbyte Payments is based in London, United Kingdom.",
+          "source_url": "demo://brightbyte-payments.example/about"
+        },
+        {
+          "name": "business_model",
+          "label": "Business model",
+          "weight": 10,
+          "points": 10,
+          "status": "match",
+          "explanation": "Business model B2B matches target B2B (10/10 pts)",
+          "known": true,
+          "evidence": "Brightbyte Payments is a fintech company building payment processing software for businesses.",
+          "source_url": "demo://brightbyte-payments.example/"
+        },
+        {
+          "name": "buying_signals",
+          "label": "Need for services (tech initiatives / growth signals)",
+          "weight": 35,
+          "points": 35.0,
+          "status": "match",
+          "explanation": "4 verified signal(s): cloud, legacy, migration, modernization (35/35 pts)",
+          "known": true,
+          "evidence": "We are planning a modernization of our legacy payment systems and a migration to the cloud.",
+          "source_url": "demo://brightbyte-payments.example/about"
+        }
+      ],
+      "facts": {
+        "industry": {
+          "value": "fintech",
+          "evidence": "Brightbyte Payments is a fintech company building payment processing software for businesses.",
+          "source_url": "demo://brightbyte-payments.example/",
+          "verified": true,
+          "issue": null
+        },
+        "employee_count": {
+          "value": 85,
+          "evidence": "Brightbyte has 85 employees and serves companies in 12 countries.",
+          "source_url": "demo://brightbyte-payments.example/about",
+          "verified": true,
+          "issue": null
+        },
+        "region": {
+          "value": "London, United Kingdom",
+          "evidence": "Brightbyte Payments is based in London, United Kingdom.",
+          "source_url": "demo://brightbyte-payments.example/about",
+          "verified": true,
+          "issue": null
+        },
+        "business_model": {
+          "value": "B2B",
+          "evidence": "Brightbyte Payments is a fintech company building payment processing software for businesses.",
+          "source_url": "demo://brightbyte-payments.example/",
+          "verified": true,
+          "issue": null
+        },
+        "buying_signals": [
+          {
+            "value": "cloud",
+            "evidence": "We are planning a modernization of our legacy payment systems and a migration to the cloud.",
+            "source_url": "demo://brightbyte-payments.example/about",
+            "verified": true,
+            "issue": null
+          },
+          {
+            "value": "modernization",
+            "evidence": "We are planning a modernization of our legacy payment systems and a migration to the cloud.",
+            "source_url": "demo://brightbyte-payments.example/about",
+            "verified": true,
+            "issue": null
+          },
+          {
+            "value": "migration",
+            "evidence": "We are planning a modernization of our legacy payment systems and a migration to the cloud.",
+            "source_url": "demo://brightbyte-payments.example/about",
+            "verified": true,
+            "issue": null
+          },
+          {
+            "value": "legacy",
+            "evidence": "We are planning a modernization of our legacy payment systems and a migration to the cloud.",
+            "source_url": "demo://brightbyte-payments.example/about",
+            "verified": true,
+            "issue": null
+          }
+        ],
+        "extractor": "rules",
+        "pages_available": true
+      },
+      "flags": [
+        "DEMO DATA: fictional company text bundled with the project, not real research."
+      ],
+      "sources": [
+        {
+          "url": "demo://brightbyte-payments.example/",
+          "kind": "demo",
+          "title": "Brightbyte Payments",
+          "fetched_at": "2026-10-28T17:58:19Z",
+          "text_chars": 243
+        },
+        {
+          "url": "demo://brightbyte-payments.example/about",
+          "kind": "demo",
+          "title": "About Brightbyte",
+          "fetched_at": "2026-10-28T17:58:19Z",
+          "text_chars": 213
+        }
+      ],
+      "research_log": [
+        "LOADED demo fixture demo://brightbyte-payments.example/",
+        "LOADED demo fixture demo://brightbyte-payments.example/about"
+      ],
+      "extractor": "rules",
+      "researched_at": "2026-10-28T17:58:19Z",
+      "evidence_quality": "High",
+      "review": {
+        "status": "Pending review",
+        "notes": ""
+      }
+    },
+    {
+      "company": "Harvest Table Bistro",
+      "website": "demo://harvest-table-bistro.example",
+      "website_origin": "demo",
+      "status": "ok",
+      "error": null,
+      "score": 15,
+      "decision": "Not Qualified",
+      "data_coverage": 1.0,
+      "summary": "Not Qualified: 15/100 with 100% of the score backed by verified evidence. Disqualified: Industry 'restaurant' is on the ICP exclusion list ('restaurant').",
+      "criteria": [
+        {
+          "name": "industry",
+          "label": "Industry fit",
+          "weight": 25,
+          "points": 0,
+          "status": "excluded",
+          "explanation": "Industry 'restaurant' is excluded by the ICP (0/25 pts)",
+          "known": true,
+          "evidence": "Harvest Table Bistro is a neighborhood restaurant serving seasonal dishes.",
+          "source_url": "demo://harvest-table-bistro.example/"
+        },
+        {
+          "name": "company_size",
+          "label": "Company size",
+          "weight": 15,
+          "points": 0,
+          "status": "mismatch",
+          "explanation": "40 employees is outside 100-5,000 (0/15 pts)",
+          "known": true,
+          "evidence": "Our kitchen and dining room are run by 40 employees who love food.",
+          "source_url": "demo://harvest-table-bistro.example/about"
+        },
+        {
+          "name": "region",
+          "label": "Region",
+          "weight": 15,
+          "points": 15,
+          "status": "match",
+          "explanation": "Region 'Portland, Oregon, United States' matches target 'United States' (15/15 pts)",
+          "known": true,
+          "evidence": "Harvest Table Bistro is based in Portland, Oregon, United States.",
+          "source_url": "demo://harvest-table-bistro.example/about"
+        },
+        {
+          "name": "business_model",
+          "label": "Business model",
+          "weight": 10,
+          "points": 0,
+          "status": "mismatch",
+          "explanation": "Business model B2C differs from target B2B (0/10 pts)",
+          "known": true,
+          "evidence": "View our menu and make reservations online for dining with family and friends.",
+          "source_url": "demo://harvest-table-bistro.example/"
+        },
+        {
+          "name": "buying_signals",
+          "label": "Need for services (tech initiatives / growth signals)",
+          "weight": 35,
+          "points": 0,
+          "status": "none_found",
+          "explanation": "No verified buying signals found in the retrieved pages (0/35 pts)",
+          "known": true,
+          "evidence": null,
+          "source_url": null
+        }
+      ],
+      "facts": {
+        "industry": {
+          "value": "restaurant",
+          "evidence": "Harvest Table Bistro is a neighborhood restaurant serving seasonal dishes.",
+          "source_url": "demo://harvest-table-bistro.example/",
+          "verified": true,
+          "issue": null
+        },
+        "employee_count": {
+          "value": 40,
+          "evidence": "Our kitchen and dining room are run by 40 employees who love food.",
+          "source_url": "demo://harvest-table-bistro.example/about",
+          "verified": true,
+          "issue": null
+        },
+        "region": {
+          "value": "Portland, Oregon, United States",
+          "evidence": "Harvest Table Bistro is based in Portland, Oregon, United States.",
+          "source_url": "demo://harvest-table-bistro.example/about",
+          "verified": true,
+          "issue": null
+        },
+        "business_model": {
+          "value": "B2C",
+          "evidence": "View our menu and make reservations online for dining with family and friends.",
+          "source_url": "demo://harvest-table-bistro.example/",
+          "verified": true,
+          "issue": null
+        },
+        "buying_signals": [],
+        "extractor": "rules",
+        "pages_available": true
+      },
+      "flags": [
+        "DEMO DATA: fictional company text bundled with the project, not real research."
+      ],
+      "sources": [
+        {
+          "url": "demo://harvest-table-bistro.example/",
+          "kind": "demo",
+          "title": "Harvest Table Bistro",
+          "fetched_at": "2026-10-28T17:58:19Z",
+          "text_chars": 214
+        },
+        {
+          "url": "demo://harvest-table-bistro.example/about",
+          "kind": "demo",
+          "title": "About",
+          "fetched_at": "2026-10-28T17:58:19Z",
+          "text_chars": 132
+        }
+      ],
+      "research_log": [
+        "LOADED demo fixture demo://harvest-table-bistro.example/",
+        "LOADED demo fixture demo://harvest-table-bistro.example/about"
+      ],
+      "extractor": "rules",
+      "researched_at": "2026-10-28T17:58:19Z",
+      "evidence_quality": "High",
+      "review": {
+        "status": "Pending review",
+        "notes": ""
+      }
+    },
+    {
+      "company": "Titan Steelworks",
+      "website": "demo://titan-steelworks.example",
+      "website_origin": "demo",
+      "status": "ok",
+      "error": null,
+      "score": 90.0,
+      "decision": "Qualified",
+      "data_coverage": 0.9,
+      "summary": "Qualified: 90/100 with 90% of the score backed by verified evidence. Strong fit: Industry fit, Company size, Region, Need for services (tech initiatives / growth signals). Could not verify: Business model.",
+      "criteria": [
+        {
+          "name": "industry",
+          "label": "Industry fit",
+          "weight": 25,
+          "points": 25,
+          "status": "match",
+          "explanation": "Industry 'manufacturing' matches target 'manufacturing' (25/25 pts)",
+          "known": true,
+          "evidence": "Titan Steelworks is an industrial manufacturer of structural steel for construction companies.",
+          "source_url": "demo://titan-steelworks.example/"
+        },
+        {
+          "name": "company_size",
+          "label": "Company size",
+          "weight": 15,
+          "points": 15,
+          "status": "match",
+          "explanation": "4,500 employees is within 100-5,000 (15/15 pts)",
+          "known": true,
+          "evidence": "We employ 4,500 people in our manufacturing plants.",
+          "source_url": "demo://titan-steelworks.example/about"
+        },
+        {
+          "name": "region",
+          "label": "Region",
+          "weight": 15,
+          "points": 15,
+          "status": "match",
+          "explanation": "Region 'Pittsburgh, Pennsylvania' matches target 'United States' (15/15 pts)",
+          "known": true,
+          "evidence": "Titan Steelworks is headquartered in Pittsburgh, Pennsylvania.",
+          "source_url": "demo://titan-steelworks.example/about"
+        },
+        {
+          "name": "business_model",
+          "label": "Business model",
+          "weight": 10,
+          "points": 0.0,
+          "status": "unknown",
+          "explanation": "Business model unknown (Business model unclear from retrieved pages.); no points awarded (0/10 pts)",
+          "known": false,
+          "evidence": null,
+          "source_url": null
+        },
+        {
+          "name": "buying_signals",
+          "label": "Need for services (tech initiatives / growth signals)",
+          "weight": 35,
+          "points": 35.0,
+          "status": "match",
+          "explanation": "6 verified signal(s): analytics, automation, cloud, digital transformation, hiring, legacy (35/35 pts)",
+          "known": true,
+          "evidence": "We are running a digital transformation program to move legacy plant systems to the cloud and add analytics and automation across our factories.",
+          "source_url": "demo://titan-steelworks.example/"
+        }
+      ],
+      "facts": {
+        "industry": {
+          "value": "manufacturing",
+          "evidence": "Titan Steelworks is an industrial manufacturer of structural steel for construction companies.",
+          "source_url": "demo://titan-steelworks.example/",
+          "verified": true,
+          "issue": null
+        },
+        "employee_count": {
+          "value": 4500,
+          "evidence": "We employ 4,500 people in our manufacturing plants.",
+          "source_url": "demo://titan-steelworks.example/about",
+          "verified": true,
+          "issue": null
+        },
+        "region": {
+          "value": "Pittsburgh, Pennsylvania",
+          "evidence": "Titan Steelworks is headquartered in Pittsburgh, Pennsylvania.",
+          "source_url": "demo://titan-steelworks.example/about",
+          "verified": true,
+          "issue": null
+        },
+        "business_model": {
+          "value": null,
+          "evidence": null,
+          "source_url": null,
+          "verified": false,
+          "issue": "Business model unclear from retrieved pages."
+        },
+        "buying_signals": [
+          {
+            "value": "cloud",
+            "evidence": "We are running a digital transformation program to move legacy plant systems to the cloud and add analytics and automation across our factories.",
+            "source_url": "demo://titan-steelworks.example/",
+            "verified": true,
+            "issue": null
+          },
+          {
+            "value": "digital transformation",
+            "evidence": "We are running a digital transformation program to move legacy plant systems to the cloud and add analytics and automation across our factories.",
+            "source_url": "demo://titan-steelworks.example/",
+            "verified": true,
+            "issue": null
+          },
+          {
+            "value": "automation",
+            "evidence": "We are running a digital transformation program to move legacy plant systems to the cloud and add analytics and automation across our factories.",
+            "source_url": "demo://titan-steelworks.example/",
+            "verified": true,
+            "issue": null
+          },
+          {
+            "value": "analytics",
+            "evidence": "We are running a digital transformation program to move legacy plant systems to the cloud and add analytics and automation across our factories.",
+            "source_url": "demo://titan-steelworks.example/",
+            "verified": true,
+            "issue": null
+          },
+          {
+            "value": "legacy",
+            "evidence": "We are running a digital transformation program to move legacy plant systems to the cloud and add analytics and automation across our factories.",
+            "source_url": "demo://titan-steelworks.example/",
+            "verified": true,
+            "issue": null
+          },
+          {
+            "value": "hiring",
+            "evidence": "We are hiring data engineers as part of our expansion into new plants.",
+            "source_url": "demo://titan-steelworks.example/about",
+            "verified": true,
+            "issue": null
+          }
+        ],
+        "extractor": "rules",
+        "pages_available": true
+      },
+      "flags": [
+        "DEMO DATA: fictional company text bundled with the project, not real research.",
+        "Business model: missing or unverified - Business model unclear from retrieved pages."
+      ],
+      "sources": [
+        {
+          "url": "demo://titan-steelworks.example/",
+          "kind": "demo",
+          "title": "Titan Steelworks",
+          "fetched_at": "2026-10-28T17:58:19Z",
+          "text_chars": 323
+        },
+        {
+          "url": "demo://titan-steelworks.example/about",
+          "kind": "demo",
+          "title": "About Titan",
+          "fetched_at": "2026-10-28T17:58:19Z",
+          "text_chars": 185
+        }
+      ],
+      "research_log": [
+        "LOADED demo fixture demo://titan-steelworks.example/",
+        "LOADED demo fixture demo://titan-steelworks.example/about"
+      ],
+      "extractor": "rules",
+      "researched_at": "2026-10-28T17:58:19Z",
+      "evidence_quality": "High",
+      "review": {
+        "status": "Pending review",
+        "notes": ""
+      }
+    },
+    {
+      "company": "Nimbus Freight Software",
+      "website": "demo://nimbus-freight.example",
+      "website_origin": "demo",
+      "status": "ok",
+      "error": null,
+      "score": 85.0,
+      "decision": "Qualified",
+      "data_coverage": 1.0,
+      "summary": "Qualified: 85/100 with 100% of the score backed by verified evidence. Strong fit: Industry fit, Company size, Business model, Need for services (tech initiatives / growth signals). Weak fit: Region.",
+      "criteria": [
+        {
+          "name": "industry",
+          "label": "Industry fit",
+          "weight": 25,
+          "points": 25,
+          "status": "match",
+          "explanation": "Industry 'logistics' matches target 'logistics' (25/25 pts)",
+          "known": true,
+          "evidence": "Nimbus Freight Software is a SaaS and cloud software platform for logistics and enterprise supply chain teams.",
+          "source_url": "demo://nimbus-freight.example/"
+        },
+        {
+          "name": "company_size",
+          "label": "Company size",
+          "weight": 15,
+          "points": 15,
+          "status": "match",
+          "explanation": "600 employees is within 100-5,000 (15/15 pts)",
+          "known": true,
+          "evidence": "We have 600 employees supporting business customers.",
+          "source_url": "demo://nimbus-freight.example/about"
+        },
+        {
+          "name": "region",
+          "label": "Region",
+          "weight": 15,
+          "points": 0,
+          "status": "mismatch",
+          "explanation": "Region 'Rotterdam, Netherlands' is not in the target regions (0/15 pts)",
+          "known": true,
+          "evidence": "Nimbus Freight Software is headquartered in Rotterdam, Netherlands.",
+          "source_url": "demo://nimbus-freight.example/about"
+        },
+        {
+          "name": "business_model",
+          "label": "Business model",
+          "weight": 10,
+          "points": 10,
+          "status": "match",
+          "explanation": "Business model B2B matches target B2B (10/10 pts)",
+          "known": true,
+          "evidence": "Nimbus Freight Software is a SaaS and cloud software platform for logistics and enterprise supply chain teams.",
+          "source_url": "demo://nimbus-freight.example/"
+        },
+        {
+          "name": "buying_signals",
+          "label": "Need for services (tech initiatives / growth signals)",
+          "weight": 35,
+          "points": 35.0,
+          "status": "match",
+          "explanation": "3 verified signal(s): cloud, expansion, hiring (35/35 pts)",
+          "known": true,
+          "evidence": "Nimbus Freight Software is a SaaS and cloud software platform for logistics and enterprise supply chain teams.",
+          "source_url": "demo://nimbus-freight.example/"
+        }
+      ],
+      "facts": {
+        "industry": {
+          "value": "logistics",
+          "evidence": "Nimbus Freight Software is a SaaS and cloud software platform for logistics and enterprise supply chain teams.",
+          "source_url": "demo://nimbus-freight.example/",
+          "verified": true,
+          "issue": null
+        },
+        "employee_count": {
+          "value": 600,
+          "evidence": "We have 600 employees supporting business customers.",
+          "source_url": "demo://nimbus-freight.example/about",
+          "verified": true,
+          "issue": null
+        },
+        "region": {
+          "value": "Rotterdam, Netherlands",
+          "evidence": "Nimbus Freight Software is headquartered in Rotterdam, Netherlands.",
+          "source_url": "demo://nimbus-freight.example/about",
+          "verified": true,
+          "issue": null
+        },
+        "business_model": {
+          "value": "B2B",
+          "evidence": "Nimbus Freight Software is a SaaS and cloud software platform for logistics and enterprise supply chain teams.",
+          "source_url": "demo://nimbus-freight.example/",
+          "verified": true,
+          "issue": null
+        },
+        "buying_signals": [
+          {
+            "value": "cloud",
+            "evidence": "Nimbus Freight Software is a SaaS and cloud software platform for logistics and enterprise supply chain teams.",
+            "source_url": "demo://nimbus-freight.example/",
+            "verified": true,
+            "issue": null
+          },
+          {
+            "value": "hiring",
+            "evidence": "We are hiring developers as part of our expansion.",
+            "source_url": "demo://nimbus-freight.example/",
+            "verified": true,
+            "issue": null
+          },
+          {
+            "value": "expansion",
+            "evidence": "We are hiring developers as part of our expansion.",
+            "source_url": "demo://nimbus-freight.example/",
+            "verified": true,
+            "issue": null
+          }
+        ],
+        "extractor": "rules",
+        "pages_available": true
+      },
+      "flags": [
+        "DEMO DATA: fictional company text bundled with the project, not real research."
+      ],
+      "sources": [
+        {
+          "url": "demo://nimbus-freight.example/",
+          "kind": "demo",
+          "title": "Nimbus Freight Software",
+          "fetched_at": "2026-10-28T17:58:19Z",
+          "text_chars": 249
+        },
+        {
+          "url": "demo://nimbus-freight.example/about",
+          "kind": "demo",
+          "title": "About Nimbus",
+          "fetched_at": "2026-10-28T17:58:19Z",
+          "text_chars": 120
+        }
+      ],
+      "research_log": [
+        "LOADED demo fixture demo://nimbus-freight.example/",
+        "LOADED demo fixture demo://nimbus-freight.example/about"
+      ],
+      "extractor": "rules",
+      "researched_at": "2026-10-28T17:58:19Z",
+      "evidence_quality": "High",
+      "review": {
+        "status": "Pending review",
+        "notes": ""
+      }
+    },
+    {
+      "company": "Mystery Startup Ltd",
+      "website": "demo://mystery-startup.example",
+      "website_origin": "demo",
+      "status": "ok",
+      "error": null,
+      "score": 0.0,
+      "decision": "Insufficient Data",
+      "data_coverage": 0.35,
+      "summary": "Insufficient Data: 0/100 with 35% of the score backed by verified evidence. Weak fit: Need for services (tech initiatives / growth signals). Could not verify: Industry fit, Company size, Region, Business model.",
+      "criteria": [
+        {
+          "name": "industry",
+          "label": "Industry fit",
+          "weight": 25,
+          "points": 0.0,
+          "status": "unknown",
+          "explanation": "Industry unknown (Not found in the retrieved pages.); no points awarded (0/25 pts)",
+          "known": false,
+          "evidence": null,
+          "source_url": null
+        },
+        {
+          "name": "company_size",
+          "label": "Company size",
+          "weight": 15,
+          "points": 0.0,
+          "status": "unknown",
+          "explanation": "Employee count unknown (Not found in the retrieved pages.); no points awarded (0/15 pts)",
+          "known": false,
+          "evidence": null,
+          "source_url": null
+        },
+        {
+          "name": "region",
+          "label": "Region",
+          "weight": 15,
+          "points": 0.0,
+          "status": "unknown",
+          "explanation": "Headquarters region unknown (Not found in the retrieved pages.); no points awarded (0/15 pts)",
+          "known": false,
+          "evidence": null,
+          "source_url": null
+        },
+        {
+          "name": "business_model",
+          "label": "Business model",
+          "weight": 10,
+          "points": 0.0,
+          "status": "unknown",
+          "explanation": "Business model unknown (Business model unclear from retrieved pages.); no points awarded (0/10 pts)",
+          "known": false,
+          "evidence": null,
+          "source_url": null
+        },
+        {
+          "name": "buying_signals",
+          "label": "Need for services (tech initiatives / growth signals)",
+          "weight": 35,
+          "points": 0,
+          "status": "none_found",
+          "explanation": "No verified buying signals found in the retrieved pages (0/35 pts)",
+          "known": true,
+          "evidence": null,
+          "source_url": null
+        }
+      ],
+      "facts": {
+        "industry": {
+          "value": null,
+          "evidence": null,
+          "source_url": null,
+          "verified": false,
+          "issue": "Not found in the retrieved pages."
+        },
+        "employee_count": {
+          "value": null,
+          "evidence": null,
+          "source_url": null,
+          "verified": false,
+          "issue": "Not found in the retrieved pages."
+        },
+        "region": {
+          "value": null,
+          "evidence": null,
+          "source_url": null,
+          "verified": false,
+          "issue": "Not found in the retrieved pages."
+        },
+        "business_model": {
+          "value": null,
+          "evidence": null,
+          "source_url": null,
+          "verified": false,
+          "issue": "Business model unclear from retrieved pages."
+        },
+        "buying_signals": [],
+        "extractor": "rules",
+        "pages_available": true
+      },
+      "flags": [
+        "DEMO DATA: fictional company text bundled with the project, not real research.",
+        "Industry fit: missing or unverified - Not found in the retrieved pages.",
+        "Company size: missing or unverified - Not found in the retrieved pages.",
+        "Region: missing or unverified - Not found in the retrieved pages.",
+        "Business model: missing or unverified - Business model unclear from retrieved pages."
+      ],
+      "sources": [
+        {
+          "url": "demo://mystery-startup.example/",
+          "kind": "demo",
+          "title": "Mystery Startup",
+          "fetched_at": "2026-10-28T17:58:19Z",
+          "text_chars": 75
+        }
+      ],
+      "research_log": [
+        "LOADED demo fixture demo://mystery-startup.example/"
+      ],
+      "extractor": "rules",
+      "researched_at": "2026-10-28T17:58:19Z",
+      "evidence_quality": "Low",
+      "review": {
+        "status": "Pending review",
+        "notes": ""
+      }
+    },
+    {
+      "company": "Zephyr Unlisted Corp",
+      "website": null,
+      "website_origin": null,
+      "status": "ok",
+      "error": null,
+      "score": 0.0,
+      "decision": "Insufficient Data",
+      "data_coverage": 0.0,
+      "summary": "Insufficient Data: 0/100 with 0% of the score backed by verified evidence. Could not verify: Industry fit, Company size, Region, Business model, Need for services (tech initiatives / growth signals).",
+      "criteria": [
+        {
+          "name": "industry",
+          "label": "Industry fit",
+          "weight": 25,
+          "points": 0.0,
+          "status": "unknown",
+          "explanation": "Industry unknown (No pages were retrieved.); no points awarded (0/25 pts)",
+          "known": false,
+          "evidence": null,
+          "source_url": null
+        },
+        {
+          "name": "company_size",
+          "label": "Company size",
+          "weight": 15,
+          "points": 0.0,
+          "status": "unknown",
+          "explanation": "Employee count unknown (No pages were retrieved.); no points awarded (0/15 pts)",
+          "known": false,
+          "evidence": null,
+          "source_url": null
+        },
+        {
+          "name": "region",
+          "label": "Region",
+          "weight": 15,
+          "points": 0.0,
+          "status": "unknown",
+          "explanation": "Headquarters region unknown (No pages were retrieved.); no points awarded (0/15 pts)",
+          "known": false,
+          "evidence": null,
+          "source_url": null
+        },
+        {
+          "name": "business_model",
+          "label": "Business model",
+          "weight": 10,
+          "points": 0.0,
+          "status": "unknown",
+          "explanation": "Business model unknown (No pages were retrieved.); no points awarded (0/10 pts)",
+          "known": false,
+          "evidence": null,
+          "source_url": null
+        },
+        {
+          "name": "buying_signals",
+          "label": "Need for services (tech initiatives / growth signals)",
+          "weight": 35,
+          "points": 0.0,
+          "status": "unknown",
+          "explanation": "Buying signals unknown (not found in the retrieved pages); no points awarded (0/35 pts)",
+          "known": false,
+          "evidence": null,
+          "source_url": null
+        }
+      ],
+      "facts": {
+        "industry": {
+          "value": null,
+          "evidence": null,
+          "source_url": null,
+          "verified": false,
+          "issue": "No pages were retrieved."
+        },
+        "employee_count": {
+          "value": null,
+          "evidence": null,
+          "source_url": null,
+          "verified": false,
+          "issue": "No pages were retrieved."
+        },
+        "region": {
+          "value": null,
+          "evidence": null,
+          "source_url": null,
+          "verified": false,
+          "issue": "No pages were retrieved."
+        },
+        "business_model": {
+          "value": null,
+          "evidence": null,
+          "source_url": null,
+          "verified": false,
+          "issue": "No pages were retrieved."
+        },
+        "buying_signals": [],
+        "extractor": "rules",
+        "pages_available": false
+      },
+      "flags": [
+        "Demo mode: no bundled fixture for this name, so nothing was researched.",
+        "Industry fit: missing or unverified - No pages were retrieved.",
+        "Company size: missing or unverified - No pages were retrieved.",
+        "Region: missing or unverified - No pages were retrieved.",
+        "Business model: missing or unverified - No pages were retrieved.",
+        "Need for services (tech initiatives / growth signals): missing or unverified - not found in the retrieved pages"
+      ],
+      "sources": [],
+      "research_log": [
+        "No demo fixture found."
+      ],
+      "extractor": "rules",
+      "researched_at": "2026-10-28T17:58:19Z",
+      "evidence_quality": "Low",
+      "review": {
+        "status": "Pending review",
+        "notes": ""
+      }
+    }
+  ]
+}

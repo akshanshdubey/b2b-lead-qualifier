@@ -1,0 +1,51 @@
+{
+  "name": "Cloud / Data / AI consulting ICP",
+  "target_industries": [
+    "fintech",
+    "banking",
+    "healthcare",
+    "logistics",
+    "manufacturing",
+    "retail",
+    "education"
+  ],
+  "excluded_industries": [
+    "restaurant",
+    "gambling",
+    "data analytics",
+    "artificial intelligence"
+  ],
+  "min_employees": 100,
+  "max_employees": 5000,
+  "target_regions": [
+    "United States",
+    "Canada",
+    "United Kingdom",
+    "Germany"
+  ],
+  "target_business_model": "B2B",
+  "buying_signal_keywords": [
+    "cloud",
+    "digital transformation",
+    "modernization",
+    "migration",
+    "automation",
+    "analytics",
+    "machine learning",
+    "AI",
+    "legacy",
+    "hiring",
+    "expansion"
+  ],
+  "weights": {
+    "industry": 25,
+    "company_size": 15,
+    "region": 15,
+    "business_model": 10,
+    "buying_signals": 35
+  },
+  "qualified_threshold": 70,
+  "review_threshold": 45,
+  "min_coverage": 0.5,
+  "unknown_credit": 0.0
+}
